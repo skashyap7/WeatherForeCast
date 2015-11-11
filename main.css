@@ -1,0 +1,90 @@
+body{
+	background-image: url("http://cs-server.usc.edu:45678/hw/hw8/images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.heading{
+	height: 100px;
+	text-align: center;
+}
+.control-label{
+	color: white;
+}
+
+.main{
+	background-color: rgba(128,128,128,0.5);
+	border-radius: 10px;
+}
+.weather-form{
+	background-color: transparent;
+    height: 100px;
+    margin-top: 10px;
+}
+ .required, .error{
+	color: red;
+}
+.forecast-banner{
+	width: 130px;
+	height:70px;
+	display: inline;
+}
+.tab-content{
+	background-color: white;
+}
+
+#current-weather{
+    background-color: white;
+}
+#hw,#cw,#ww{
+	background-color: white;
+	color: #246FAE;
+}
+#hourly-weather{
+	background-color: white;
+}
+#cw:active,#ww,#hw{
+	background-color: white;
+	color: #246FAE;
+}
+#icon{
+    padding: 10px;
+}
+#summary{
+	color: white;
+    text-align: center;
+    padding: 5px;
+}
+.table-head{
+	background-color: #F37C7E;
+	color: white;
+    margin: 0px;
+    padding: 0px;
+}
+td{
+	color: black;
+}
+.radio-label{
+	color: white;
+}
+#submit{
+	margin-right: 5px;
+}
+
+.week{
+	margin: 10px;
+	color: white;
+	text-align: center;
+}
+#weekly-weather{
+	background-color: black;
+}
+#map-canvas{
+    height: 456px;
+}
+.current_w{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#temp-unit{
+    display: inline;
+}
